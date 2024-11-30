@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    background-image:url("restaraunt\'s\ background\ 3");
+    background-size: cover;
+
+}
+    h3 {
+        background-color: rgba(255, 255, 0, 0.7);/* Light yellow background */
+        color: white; /* Text color */
+        padding: 10px 20px; /* Adds spacing inside the element */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */ 
+        display: inline-block; 
+      }
+      /* Styling for Dosa Category */
+.menu-category {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ccf7ff; /* Light yellow background to highlight the Dosa section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.menu-category h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6600; /* Orange color to represent the warmth of dosa */
+    margin-bottom: 20px;
+}
+
+/* Flexbox for Dosa items */
+.menu-items {
+    display: flex;
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    gap: 20px; /* Add some space between items */
+}
+
+/* Style each Dosa item */
+.item {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff; /* White background for items */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Ensures images fit the container well */
+    border-radius: 8px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333; /* Dark text color for readability */
+}
+
+/* Hover effect to scale up the item */
+.item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    .item {
+        width: 180px; /* Slightly smaller items on tablet devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        width: 150px; /* Even smaller items on mobile devices */
+    }
+}
+p{
+    color:white;
+}
+.email{
+    color:white;
+    text-decoration: none;
+}
